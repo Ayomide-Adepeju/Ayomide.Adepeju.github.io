@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GIS Story Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" class="no-bullets">
+        <h1>Welcome to my GIS Portfolio</h1>
+    </div>
+
+    <div>    
+        <table>
+            <thead>
+                <tr> <!-- Changed from <th> to <tr> for correct table structure -->
+                    <th>
+                        <ul id="about" class="no-bullets links">
+                            <li><h1 style="font-size: 40px;">Ayomide G. Adepeju</h1></li>
+                            <li><p class="description">A result-oriented professional who is well-versed in cartography and GIS analysis. Proficient in using ArcGIS and QGIS software for spatial analysis, modeling, visualization, and interpretation. Dedicated to achieving and exceeding company goals and objectives without sacrificing customer service. Possess a strong work ethic and a strong will to succeed. Work well in a demanding, fast-paced environment, and able to function well both independently and in a goal-achieving team.</p></li>
+                            <li><h6><a href="https://engineering.purdue.edu/ABE/people/ptProfile?resource_id=284827&group_id=66206">Purdue Profile</a></h6></li>
+                            <li><h6><a href="https://www.linkedin.com/in/ayomide-grace1">LinkedIn</a></h6></li>
+                            <li><h6><a href="https://github.com/Ayomide-Adepeju/Ayomide.Adepeju.github.io">GitHub</a></h6></li>
+                            <li><a href="mailto:aadepeju@purdue.edu">
+                                <img src="mail.png" alt="Mail icon">
+                            </a></li> <!-- Closed the <a> tag -->
+                        </ul>
+                    </th>
+                    <th><img src="Ayo2.jpeg" style="width: 500px;" alt="Ayomide's picture" id="photo"></th>
+                </tr> <!-- Closed the <tr> tag -->
+            </thead>
+        </table>
+    </div>
+
+    <div id="work-samples" class="no-bullets">
+        <h2>Cartography and Map Making</h2>
+    </div>
+
+    <div class="word-text">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="AdepejuAyomideMoline.png" style="width: 500px;" alt="Downtown_Moline">
+                    </td>
+                    <td>
+                        <p>
+                            This map was created using classic cartographic techniques to mimic a hand-drawn historical map. I used the watercolor style created by John Nelson to symbolize the layers and trees image by Warren Davison. The Mississippi River Water Line has a pen-sketched look, which was achieved by the polygon strokes in a multi-layered style by John Nelson. The choice of colors for each layer was crucial to the aesthetics of the map.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="AdepejuAyomideChoropleth.png" style="width: 500px;" alt="Heart Disease Mortality">
+                    </td>
+                    <td>
+                        <p>
+                            The heart disease mortality rate in the contiguous United States is mapped. The major decisions here are the method of classification and the color scheme. I used the "natural breaks" classification method, which allows for natural data groupings and chose a color ramp from blue to yellow, with blue representing a few deaths while yellow represents many deaths. The location with the most deaths informed the inset map, this combines the heart disease mortality with the stroke mortality to show regions mostly affected by the two diseases. A bivariate color symbology was used, with blue representing a small number of deaths and red representing a large number of deaths. Because this is a thematic map, I used an equal-area projection to minimize distortion.
+
+                            This map was featured during the plenary session of the 2023 ESRI International User Conference and the 2024 ESRI Federal GIS Conference.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="AdepejuAyomideDot.png" style="width: 500px;" alt="Population of Georgia 2021">
+                    </td>
+                    <td>
+                        <p>
+                            This map shows the population of Georgia in 2021. An equal area projection was used for this map to ensure minimum distortion. The dot size, dot color, and dot value are the three major considerations made during the map-making process. A dot size of 0.5 was most effective, and the cordovan color was chosen. The dot value allowed for at least two dot placements in the least populated region. Also, a census tract was used for the placement of the dots to constrain their random placement. The labeling of nearby states and the ocean was done for proper color blending with the main map.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="footer" class="no-bullets">
+        <h6>Last updated by Ayomide Adepeju: September 3, 2024</h6>
+    </div>
+</body>
+</html>

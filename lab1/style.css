@@ -1,0 +1,151 @@
+#header {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    background-color: gainsboro;
+    flex-grow: 1;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri light;
+
+}
+#about {
+    padding: 20px;
+    text-align: left;
+    line-height: 2;
+}
+.description{
+    font-family: Calibri light;
+    font-size: 16px;
+    color: light rgba(0, 0, 0, 0.779);
+}
+
+#photo {
+    border: 2px solid black;
+    width: 250;
+    height: auto;
+    float: right;
+}
+
+#table {width: 500
+
+}
+
+.links {
+    margin-top: 15px;
+} 
+
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px
+}
+
+.links a:hover {
+    color: #0073e6
+}
+
+.links img {
+    width: 20px;
+    height: auto;
+
+}
+#work-samples {
+    min-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    width: 50%;
+    flex-grow: 1;
+    margin: 0 auto; /* Centers the flex container horizontally */
+}
+
+
+.work-text {
+    position: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    padding: 10px;
+    font-size: 16px;
+    line-height:1.6;
+    width: 100%;
+}
+
+.work-item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.work-item img {
+    width: 25%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.work-item p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/*
+#footer {
+    min-height: 10px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+    background-color: gainsboro;
+    flex-grow: 1;
+    padding: 10px
+}
+*/
+
+p {
+    line-height: 1.6;         /* Increases line spacing */
+    margin-bottom: 1em;       /* Increases space between paragraphs */
+    letter-spacing: 0.1em;    /* Increases space between letters */
+    word-spacing: 0.2em;      /* Increases space between words */
+    padding: 10px;            /* Adds padding around the text */
+}
+
+
+#footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #footer li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  #footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+  }
